@@ -1,0 +1,90 @@
+/* GENERAL KEYFRAMES */
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* KEYFRAMES FOR section.main */
+
+@keyframes MAIN-transition-right {
+    0%{
+        opacity: 0;
+        transform: translateX(-25%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes MAIN-transition-top {
+    0%{
+        opacity: 0;
+        transform: translateY(25%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes MAIN-darker-image {
+    0%{
+        filter: brightness(1);
+    }
+    100%{
+        filter: brightness(0.6);
+    }
+}
+
+/* KEYFRAMES FOR section.special */
+
+@keyframes SPECIAL-transition-top {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+/* KEYFRAMES FOR section.meet */
+
+@keyframes MEET-left {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes MEET-right {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes MEET-top {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
