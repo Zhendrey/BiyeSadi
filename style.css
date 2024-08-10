@@ -651,7 +651,7 @@ header, .page section, footer {
 	flex: 0 0 111px;
 	object-fit: contain;
 	height: 100px;
-	background: url(/img/05.png) 0px 0px no-repeat;
+	background: url(https://zhendrey.github.io/BiyeSadi/img/05.png) 0px 0px no-repeat;
 	margin: 0px 0.5em 0px 0px;
 }
 @media (min-width: 71.9375em) {
@@ -695,7 +695,7 @@ header, .page section, footer {
 		bottom: 0;
 		left: 0;
 		transform: translateX(-100%);
-		content: url(/img/04.png);
+		content: url(https://zhendrey.github.io/BiyeSadi/img/04.png);
 		animation: MEET-right 1s ease 0.2s 1 normal forwards;
 	}
 }
@@ -714,7 +714,7 @@ header, .page section, footer {
 		bottom: 0;
 		right: 0;
 		transform: translateX(100%);
-		content: url(/img/03.png);
+		content: url(https://zhendrey.github.io/BiyeSadi/img/03.png);
 		animation: MEET-left 1s ease 0.2s 1 normal forwards;
 	}
 }
@@ -1234,7 +1234,7 @@ header, .page section, footer {
 	position: relative;
 	min-height: 111px;
 	z-index: 2;
-	background: url(/img/10.png) 50% 0px no-repeat;
+	background: url(https://zhendrey.github.io/BiyeSadi/img/10.png) 50% 0px no-repeat;
 }
 .footer {
 	font-family: "DM Sans";
@@ -1307,7 +1307,7 @@ header, .page section, footer {
 	}
 }
 .footer__search::before {
-	content: url(/img/searchbar-arrow.svg);
+	content: url(https://zhendrey.github.io/BiyeSadi/img/searchbar-arrow.svg);
 	position: absolute;
 	top: 50%;
 	left: 50%;
