@@ -199,7 +199,7 @@ header, .page section, footer {
 	transition: all 0.6s ease 0s;
 }
 .looking-for__form select:hover {
-	transform: rotate(-2deg) scale(1.1);
+	transform: scale(1.05);
 }
 .looking-for__form select {
 	padding: 0px 0px 0px 40px;
